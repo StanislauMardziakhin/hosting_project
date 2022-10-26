@@ -27,7 +27,6 @@ services:
       -   ./tmp/db:/var/lib/mysql
       environment:
           MYSQL_DATABASE: laravel_docker
-          MYSQL_PASSWORD: root
           MYSQL_ROOT_PASSWORD: root
       ports:
       -   8101:3306
